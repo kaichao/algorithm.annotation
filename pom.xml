@@ -4,7 +4,7 @@
 
   <groupId>jobreading</groupId>
   <artifactId>algorithm.annotation</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>0.1.0</version>
   <packaging>jar</packaging>
 
   <name>algorithm.annotation</name>
@@ -21,7 +21,7 @@
       <version>4.12</version>
       <scope>test</scope>
     </dependency>
-    
+
     <dependency>
       <groupId>org.apache.thrift</groupId>
       <artifactId>libthrift</artifactId>
@@ -32,6 +32,6 @@
     	<artifactId>kryo</artifactId>
     	<version>4.0.1</version>
     </dependency>
-    
+
   </dependencies>
 </project>
