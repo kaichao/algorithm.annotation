@@ -1,0 +1,16 @@
+# Eclipse project folder
+.settings/
+/.classpath
+/.project
+
+*.class
+
+**/.DS_Store
+
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+/target/
