@@ -7,34 +7,24 @@ import java.util.List;
 import java.util.Set;
 
 import org.junit.After;
-import org.junit.AfterClass;
 import org.junit.Before;
-import org.junit.BeforeClass;
 import org.junit.Test;
 
 import jobreading.algorithm.AlgorithmClient;
 
 /**
+ * 测试通过基于Thrift的客户端，连接到Server端，访问Algorithm的算法
+ * 
  * start SimpleBackendServer first.
  * @author kaichao
  *
  */
 public class AlgorithmClientTest {
-
-	@BeforeClass
-	public static void setUpBeforeClass() throws Exception {
-//		new SimpleBackendServer().startServer();
-	}
-
-	@AfterClass
-	public static void tearDownAfterClass() throws Exception {
-	}
-
+	private AlgorithmClient client;
 	@Before
 	public void setUp() throws Exception {
 		client = new AlgorithmClient();
 	}
-	private AlgorithmClient client;
 
 	@After
 	public void tearDown() throws Exception {

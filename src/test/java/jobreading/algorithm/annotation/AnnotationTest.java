@@ -15,6 +15,11 @@ import org.junit.Test;
 import jobreading.algorithm.backend.AlgorithmServiceImpl;
 import static jobreading.algorithm.util.KryoTool.*;
 
+/**
+ * 标注Algorithm的测试
+ * @author kaichao
+ *
+ */
 public class AnnotationTest {
 	private AlgorithmServiceImpl algo;
 	@Before
